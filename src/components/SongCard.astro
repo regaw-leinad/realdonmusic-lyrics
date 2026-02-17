@@ -1,0 +1,46 @@
+---
+interface Props {
+  title: string;
+  album?: string;
+  slug: string;
+  coverArt?: string;
+}
+
+const { title, album, slug, coverArt } = Astro.props;
+---
+
+<a
+  href={`/songs/${slug}/`}
+  class="group block overflow-hidden rounded-xl border border-border bg-bg-secondary no-underline transition-all hover:-translate-y-0.5 hover:border-gold/25 hover:shadow-[0_8px_32px_rgba(0,0,0,0.3)]"
+>
+  {
+    coverArt ? (
+      <img
+        src={coverArt}
+        alt={`${title} cover art`}
+        class="aspect-square w-full object-cover"
+        loading="lazy"
+      />
+    ) : (
+      <div class="flex aspect-square items-center justify-center bg-gradient-to-br from-bg-elevated via-[#1a1508] to-bg-elevated text-6xl">
+        <span class="opacity-30 transition-opacity group-hover:opacity-50">
+          &#9835;
+        </span>
+      </div>
+    )
+  }
+  <div class="p-5">
+    {
+      album && (
+        <div class="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.06em] text-gold">
+          {album}
+        </div>
+      )
+    }
+    <h3
+      class="mb-1 font-['Cormorant_Garamond',Georgia,serif] text-[22px] font-semibold text-text-primary"
+    >
+      {title}
+    </h3>
+  </div>
+</a>

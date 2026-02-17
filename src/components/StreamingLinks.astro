@@ -1,0 +1,58 @@
+---
+interface Props {
+  spotifyUrl?: string;
+  appleMusicUrl?: string;
+  youtubeMusicUrl?: string;
+  bandcampUrl?: string;
+}
+
+const { spotifyUrl, appleMusicUrl, youtubeMusicUrl, bandcampUrl } = Astro.props;
+const hasLinks = spotifyUrl || appleMusicUrl || youtubeMusicUrl || bandcampUrl;
+---
+
+{
+  hasLinks && (
+    <div class="flex flex-wrap gap-2.5">
+      {bandcampUrl && (
+        <a
+          href={bandcampUrl}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-2 rounded-md border border-border bg-bg-elevated px-3.5 py-2 text-[13px] font-medium text-text-secondary no-underline transition-all hover:border-gold/25 hover:bg-gold-dim hover:text-text-primary"
+        >
+          Bandcamp
+        </a>
+      )}
+      {spotifyUrl && (
+        <a
+          href={spotifyUrl}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-2 rounded-md border border-border bg-bg-elevated px-3.5 py-2 text-[13px] font-medium text-text-secondary no-underline transition-all hover:border-gold/25 hover:bg-gold-dim hover:text-text-primary"
+        >
+          Spotify
+        </a>
+      )}
+      {appleMusicUrl && (
+        <a
+          href={appleMusicUrl}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-2 rounded-md border border-border bg-bg-elevated px-3.5 py-2 text-[13px] font-medium text-text-secondary no-underline transition-all hover:border-gold/25 hover:bg-gold-dim hover:text-text-primary"
+        >
+          Apple Music
+        </a>
+      )}
+      {youtubeMusicUrl && (
+        <a
+          href={youtubeMusicUrl}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-2 rounded-md border border-border bg-bg-elevated px-3.5 py-2 text-[13px] font-medium text-text-secondary no-underline transition-all hover:border-gold/25 hover:bg-gold-dim hover:text-text-primary"
+        >
+          YouTube Music
+        </a>
+      )}
+    </div>
+  )
+}

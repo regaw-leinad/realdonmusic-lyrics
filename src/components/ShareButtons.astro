@@ -1,0 +1,51 @@
+---
+interface Props {
+  url: string;
+  title: string;
+}
+
+const { url, title } = Astro.props;
+---
+
+<div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+  <div
+    class="text-[12px] font-semibold uppercase tracking-[0.08em] text-text-muted"
+  >
+    Share this song
+  </div>
+  <div class="flex gap-3">
+    <button
+      data-url={url}
+      class="copy-link-btn inline-flex cursor-pointer items-center gap-2 rounded-lg border border-border bg-bg-secondary px-4 py-2.5 text-[13px] font-medium text-text-secondary transition-all hover:bg-bg-elevated hover:text-text-primary"
+    >
+      <svg
+        width="14"
+        height="14"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        ><rect x="9" y="9" width="13" height="13" rx="2"></rect><path
+          d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"></path></svg
+      >
+      <span class="copy-text">Copy Link</span>
+    </button>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll(".copy-link-btn").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const url = btn.getAttribute("data-url");
+      if (!url) return;
+      await navigator.clipboard.writeText(url);
+      const text = btn.querySelector(".copy-text");
+      if (text) {
+        text.textContent = "Copied!";
+        setTimeout(() => {
+          text.textContent = "Copy Link";
+        }, 2000);
+      }
+    });
+  });
+</script>

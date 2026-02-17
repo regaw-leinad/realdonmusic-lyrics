@@ -1,0 +1,122 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  canonicalUrl?: string;
+}
+
+const {
+  title,
+  description = "Lyrics by Real Don Music. West Coast Trip Hop Acid Jazz from Seattle.",
+  ogImage,
+  canonicalUrl,
+} = Astro.props;
+
+const pageTitle = `${title} | Real Don Music`;
+const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
+const canonical = canonicalUrl ?? Astro.url.href;
+const og = ogImage ?? `${siteUrl}/images/og-default.png`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={og} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={og} />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <nav
+      class="sticky top-0 z-50 border-b border-border bg-bg-primary/85 backdrop-blur-lg"
+    >
+      <div
+        class="mx-auto flex max-w-[720px] items-center justify-between px-6 py-4"
+      >
+        <a
+          href="/"
+          class="text-[15px] font-bold uppercase tracking-wider text-gold no-underline"
+        >
+          Real Don Music
+        </a>
+        <div class="flex gap-6">
+          <a
+            href="/"
+            class="text-sm font-medium text-text-muted no-underline transition-colors hover:text-text-primary"
+          >
+            All Songs
+          </a>
+          <a
+            href="https://realdonmusic.bandcamp.com"
+            target="_blank"
+            rel="noopener"
+            class="text-sm font-medium text-text-muted no-underline transition-colors hover:text-text-primary"
+          >
+            Bandcamp
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <slot />
+
+    <footer class="border-t border-border px-6 py-8">
+      <div
+        class="mx-auto flex max-w-[720px] flex-col items-center justify-between gap-4 sm:flex-row"
+      >
+        <div class="text-[13px] font-semibold uppercase tracking-wider text-gold">
+          Real Don Music
+        </div>
+        <div class="flex gap-5">
+          <a
+            href="https://realdonmusic.bandcamp.com"
+            target="_blank"
+            rel="noopener"
+            class="text-[13px] text-text-muted no-underline transition-colors hover:text-text-primary"
+          >
+            Bandcamp
+          </a>
+          <a
+            href="https://www.instagram.com/realdonmusic/"
+            target="_blank"
+            rel="noopener"
+            class="text-[13px] text-text-muted no-underline transition-colors hover:text-text-primary"
+          >
+            Instagram
+          </a>
+          <a
+            href="https://open.spotify.com/artist/1JrFtL3TcqqLeCYcJOoMvm"
+            target="_blank"
+            rel="noopener"
+            class="text-[13px] text-text-muted no-underline transition-colors hover:text-text-primary"
+          >
+            Spotify
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

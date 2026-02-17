@@ -1,0 +1,50 @@
+---
+interface Props {
+  content: string;
+}
+
+const { content } = Astro.props;
+
+const notesMarker = "<!-- songwriter-notes -->";
+const markerIndex = content.indexOf(notesMarker);
+const hasNotes = markerIndex >= 0;
+const notesHtml = hasNotes
+  ? content.substring(markerIndex + notesMarker.length).trim()
+  : "";
+---
+
+{
+  hasNotes && notesHtml && (
+    <div class="rounded-xl border border-border bg-bg-secondary p-8">
+      <div class="text-[12px] font-semibold uppercase tracking-[0.08em] text-text-muted mb-5">
+        Behind the Song
+      </div>
+      <div
+        class="notes-content text-[15px] leading-[1.7] text-text-secondary"
+        set:html={notesHtml}
+      />
+    </div>
+  )
+}
+
+<style>
+  .notes-content :global(h2) {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .notes-content :global(h2:first-child) {
+    margin-top: 0;
+  }
+
+  .notes-content :global(p) {
+    margin-bottom: 1rem;
+  }
+
+  .notes-content :global(p:last-child) {
+    margin-bottom: 0;
+  }
+</style>

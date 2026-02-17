@@ -1,0 +1,24 @@
+{
+  "name": "realdonmusic-lyrics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "3.7.0",
+    "@resvg/resvg-js": "2.6.2",
+    "@tailwindcss/vite": "4.1.18",
+    "astro": "5.17.2",
+    "satori": "0.12.2",
+    "tailwindcss": "4.1.18"
+  },
+  "volta": {
+    "node": "22.22.0",
+    "npm": "10.9.4"
+  }
+}
