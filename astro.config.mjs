@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: "https://lyrics.realdonmusic.com",
+  site: "https://lyrics.danwager.com",
   image: {
     service: { entrypoint: "astro/assets/services/noop" },
   },
