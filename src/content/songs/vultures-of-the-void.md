@@ -7,6 +7,7 @@ releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/vultures-of-the-void"
 spotifyUrl: "https://open.spotify.com/track/3d8XfikplJQI45JMRQtNo1"
 appleMusicUrl: "https://music.apple.com/us/album/vultures-of-the-void/1860061342?i=1860061773&uo=4"
+featuredLyrics: "The more I get to stretch my limbs\nThe more I grow to love my cage"
 ---
 
 My word is great

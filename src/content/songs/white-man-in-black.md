@@ -7,6 +7,7 @@ releaseDate: "August 3, 2017"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/white-man-in-black"
 spotifyUrl: "https://open.spotify.com/track/0fbXgKJSn4BT1KzG75WmFP"
 appleMusicUrl: "https://music.apple.com/us/album/white-man-in-black/988043456?i=988043562&uo=4"
+featuredLyrics: "Even when buried beneath the landscape\nUnder amber waves of grain\nIt's not enough to hide my American shame"
 ---
 
 We could be anywhere taking maximum carnage

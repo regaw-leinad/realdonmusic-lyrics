@@ -5,6 +5,7 @@ releaseDate: "October 4, 2019"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/downwinders"
 spotifyUrl: "https://open.spotify.com/track/6eEZBrwaaF5YEATOpDRm7K"
 appleMusicUrl: "https://music.apple.com/us/album/downwinders/1480639950?i=1480639951&uo=4"
+featuredLyrics: "I've got a deep seated fear of happenstance"
 ---
 
 "Downwinders"

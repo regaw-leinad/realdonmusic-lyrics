@@ -7,6 +7,7 @@ releaseDate: "August 4, 2017"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/duck-kid-duck"
 spotifyUrl: "https://open.spotify.com/track/2pW3h2YfVCykCAr5H9NexT"
 appleMusicUrl: "https://music.apple.com/us/album/duck-kid-duck/1232071400?i=1232071412&uo=4"
+featuredLyrics: "The heaviness of even being\nAnd not knowing what it means"
 ---
 
 For the thrill of it, cause it's inherent

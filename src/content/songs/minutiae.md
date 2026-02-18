@@ -7,6 +7,7 @@ releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/minutiae"
 spotifyUrl: "https://open.spotify.com/track/5RqDs7ZeQNhRNb2d92h5Z4"
 appleMusicUrl: "https://music.apple.com/us/album/minutiae/1860061342?i=1860061447&uo=4"
+featuredLyrics: "Make a deal with the devil in the small details"
 ---
 
 If you don’t ask questions

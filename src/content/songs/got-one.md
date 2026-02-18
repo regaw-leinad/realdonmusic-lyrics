@@ -5,6 +5,7 @@ releaseDate: "June 11, 2021"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/got-one"
 spotifyUrl: "https://open.spotify.com/track/2SI6xZOSTgVG4cGb7I0GiP"
 appleMusicUrl: "https://music.apple.com/us/album/got-one/1570415748?i=1570415749&uo=4"
+featuredLyrics: "I've got no duty to retreat\nIn my pursuit of liberty"
 ---
 
 "Got One"

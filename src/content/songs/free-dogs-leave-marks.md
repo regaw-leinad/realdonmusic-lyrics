@@ -7,6 +7,7 @@ releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/free-dogs-leave-marks"
 spotifyUrl: "https://open.spotify.com/track/6mlnx95n8fYuWb9TxXHVU6"
 appleMusicUrl: "https://music.apple.com/us/album/free-dogs-leave-marks/1860061342?i=1860061454&uo=4"
+featuredLyrics: "Her name is money and she sure ain't free\nFree dogs leave marks and claim territory"
 ---
 
 Her name is money and she sure ain't free

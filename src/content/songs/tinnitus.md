@@ -7,6 +7,7 @@ releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/tinnitus"
 spotifyUrl: "https://open.spotify.com/track/0eaRwBt7acUS8K621JbSuS"
 appleMusicUrl: "https://music.apple.com/us/album/tinnitus/1860061342?i=1860061666&uo=4"
+featuredLyrics: "Is that freedom's ring?\nOr is it Tinnitus that I am mistaking?"
 ---
 
 Mind the turnbull

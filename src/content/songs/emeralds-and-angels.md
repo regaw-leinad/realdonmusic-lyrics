@@ -5,6 +5,7 @@ releaseDate: "August 1, 2013"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/emeralds-and-angels"
 spotifyUrl: "https://open.spotify.com/track/5HgZUl0dMRUSP0ur3w8RYo"
 appleMusicUrl: "https://music.apple.com/us/album/emeralds-and-angels/683291792?i=683292029&uo=4"
+featuredLyrics: "Where all your dreams are made and at the same time\nThose same dreams go to die"
 ---
 
 Emeralds and Angels

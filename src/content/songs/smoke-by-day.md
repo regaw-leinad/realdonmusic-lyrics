@@ -5,6 +5,7 @@ releaseDate: "July 23, 2014"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/smoke-by-day"
 spotifyUrl: "https://open.spotify.com/track/6uOxoR4hVZHV4ni5o7XTkV"
 appleMusicUrl: "https://music.apple.com/us/album/smoke-by-day/904038586?i=904038633&uo=4"
+featuredLyrics: "I'm at the edge of the world with no place to go\nSick of all the same shit, looking for a spaceship"
 ---
 
 Smoke By Day

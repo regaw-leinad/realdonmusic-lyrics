@@ -7,6 +7,7 @@ releaseDate: "August 4, 2017"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/exciting-or-excessive"
 spotifyUrl: "https://open.spotify.com/track/2VucLiCne08Xfajv81sCtR"
 appleMusicUrl: "https://music.apple.com/us/album/exciting-or-excessive/1232071400?i=1232071414&uo=4"
+featuredLyrics: "Is it exciting or excessive to be violated?"
 ---
 
 Spill to me your deepest darkest fantasies

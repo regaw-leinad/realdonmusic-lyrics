@@ -7,6 +7,7 @@ releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/land-of-skunks"
 spotifyUrl: "https://open.spotify.com/track/1eFsxvAP2qRGB8vPJ0QA1R"
 appleMusicUrl: "https://music.apple.com/us/album/land-of-skunks/1860061342?i=1860061641&uo=4"
+featuredLyrics: "In the land of skunks\nThe man with half a nose is king"
 ---
 
 Baby the bar is low

@@ -7,6 +7,7 @@ releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/touch-the-tv"
 spotifyUrl: "https://open.spotify.com/track/5EcdGhHv7ydOFqwpTNCGn3"
 appleMusicUrl: "https://music.apple.com/us/album/touch-the-tv/1860061342?i=1860061435&uo=4"
+featuredLyrics: "I hear your heartbeat through the screen\nAnd it sounds so dissonant"
 ---
 
 Hook line and sinker

@@ -2,9 +2,10 @@
 interface Props {
   url: string;
   title: string;
+  slug: string;
 }
 
-const { url, title } = Astro.props;
+const { url, title, slug } = Astro.props;
 ---
 
 <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -30,6 +31,29 @@ const { url, title } = Astro.props;
       >
       <span class="copy-text">Copy Link</span>
     </button>
+    <a
+      href={`/share/${slug}.png`}
+      download={`${title} - Real Don Music.png`}
+      class="inline-flex items-center gap-2 rounded-lg border border-border bg-bg-secondary px-4 py-2.5 text-[13px] font-medium text-text-secondary no-underline transition-all hover:bg-bg-elevated hover:text-text-primary"
+    >
+      <svg
+        width="14"
+        height="14"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        ><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"></path><polyline
+          points="7 10 12 15 17 10"></polyline><line
+          x1="12"
+          y1="15"
+          x2="12"
+          y2="3"></line></svg
+      >
+      Social Card
+    </a>
   </div>
 </div>
 

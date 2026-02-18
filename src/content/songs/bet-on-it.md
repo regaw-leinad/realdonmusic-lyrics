@@ -7,6 +7,7 @@ releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/bet-on-it"
 spotifyUrl: "https://open.spotify.com/track/6xJ4QtfuNmaT42dpoZiS8u"
 appleMusicUrl: "https://music.apple.com/us/album/bet-on-it/1860061342?i=1860061642&uo=4"
+featuredLyrics: "Everything is more exciting with a bet on it"
 ---
 
 You must be confident and calm

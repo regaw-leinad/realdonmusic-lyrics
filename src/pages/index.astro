@@ -57,6 +57,14 @@ if (singles.length > 0) {
   albumGroups.push({ name: "Singles", songs: singles, latestDate: new Date(0) });
 }
 
+// Short display names for long album titles
+const displayNames: Record<string, string> = {
+  "Pet Care: or The Righteous One Takes Care of Their Animal": "Pet Care",
+};
+function shortName(name: string): string {
+  return displayNames[name] ?? name;
+}
+
 // Filter labels follow the same order
 const filterLabels = albumGroups.map((g) => g.name);
 ---
@@ -78,7 +86,7 @@ const filterLabels = albumGroups.map((g) => g.name);
           class="filter-btn shrink-0 rounded-full border border-border bg-transparent px-4 py-2 text-[13px] font-medium text-text-muted transition-all hover:border-gold/30 hover:text-text-secondary"
           data-album={label}
         >
-          {label}
+          {shortName(label)}
         </button>
       ))
     }
@@ -91,7 +99,7 @@ const filterLabels = albumGroups.map((g) => g.name);
       albumGroups.map((group) => (
         <section class="album-section mb-14" data-album={group.name}>
           <h2 class="mb-6 text-[24px] font-semibold tracking-tight text-text-primary sm:text-[28px]">
-            {group.name}
+            {shortName(group.name)}
           </h2>
           <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {group.songs.map((song) => (

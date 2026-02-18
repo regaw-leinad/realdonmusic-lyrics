@@ -7,6 +7,7 @@ releaseDate: "August 3, 2017"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/the-ballad-of-robert-swift"
 spotifyUrl: "https://open.spotify.com/track/2EYQ7h2V5kyqsjw402E8O9"
 appleMusicUrl: "https://music.apple.com/us/album/the-ballad-of-robert-swift/988043456?i=988043561&uo=4"
+featuredLyrics: "Don't screw up tomorrow by fucking up today"
 ---
 
 Were you awoken by the knocking of the door as they nailed to it The forclosure note?

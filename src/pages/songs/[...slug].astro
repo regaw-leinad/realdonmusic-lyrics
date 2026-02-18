@@ -23,7 +23,7 @@ const description =
 const pageUrl = Astro.url.href.replace(/\/$/, "");
 ---
 
-<BaseLayout title={pageTitle} description={description} ogImage={song.data.coverArt}>
+<BaseLayout title={pageTitle} description={description} ogImage={`/og/${song.id}.png`}>
   <main class="mx-auto max-w-[720px] px-6 pb-20">
     <!-- Song Header -->
     <div class="flex flex-col gap-5 pb-10 pt-12 sm:flex-row sm:gap-7">
@@ -93,7 +93,7 @@ const pageUrl = Astro.url.href.replace(/\/$/, "");
 
     <!-- Share -->
     <div class="py-10">
-      <ShareButtons url={pageUrl} title={song.data.title} />
+      <ShareButtons url={pageUrl} title={song.data.title} slug={song.id} />
     </div>
 
     <hr class="border-border" />

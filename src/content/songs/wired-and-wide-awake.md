@@ -7,6 +7,7 @@ releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/wired-and-wide-awake"
 spotifyUrl: "https://open.spotify.com/track/0Q013tOWRQxbmCOdOEjWRL"
 appleMusicUrl: "https://music.apple.com/us/album/wired-and-wide-awake/1782263276?i=1782263290&uo=4"
+featuredLyrics: "To eat your name and likeness like a meal"
 ---
 
 "Wired And Wide Awake"

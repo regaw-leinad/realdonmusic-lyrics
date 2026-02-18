@@ -7,6 +7,7 @@ releaseDate: "August 3, 2017"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/streetwise-pat"
 spotifyUrl: "https://open.spotify.com/track/1kcuhcrbeKWNRdpPNQkiMD"
 appleMusicUrl: "https://music.apple.com/us/album/streetwise-pat/988043456?i=988043564&uo=4"
+featuredLyrics: "Staying alive is as good as it gets for the living"
 ---
 
 I'm taking steps

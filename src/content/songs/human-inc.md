@@ -7,6 +7,7 @@ releaseDate: "August 3, 2017"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/human-inc"
 spotifyUrl: "https://open.spotify.com/track/3OfUmYFjlcpyYWT1KYouTO"
 appleMusicUrl: "https://music.apple.com/us/album/human-inc/988043456?i=988043563&uo=4"
+featuredLyrics: "We are both the problem and the solution"
 ---
 
 We can be the protagonists

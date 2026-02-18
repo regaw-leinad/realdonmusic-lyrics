@@ -5,6 +5,7 @@ releaseDate: "May 30, 2020"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/crazy-bob"
 spotifyUrl: "https://open.spotify.com/track/6fSPNdbu0rGeCLe396sot4"
 appleMusicUrl: "https://music.apple.com/us/album/crazy-bob/1512630924?i=1512630925&uo=4"
+featuredLyrics: "Now anytime when you see me\nThat dog's walkin' me on down the street"
 ---
 
 "Crazy Bob"

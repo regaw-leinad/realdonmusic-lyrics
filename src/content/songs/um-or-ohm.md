@@ -7,6 +7,7 @@ releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/um-or-ohm"
 spotifyUrl: "https://open.spotify.com/track/1WrolyYZ34ab90ZncU9XSH"
 appleMusicUrl: "https://music.apple.com/us/album/um-or-ohm/1860061342?i=1860061457&uo=4"
+featuredLyrics: "The pupils of my eyes look like they're QR codes"
 ---
 
 Here I am

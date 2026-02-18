@@ -5,6 +5,7 @@ releaseDate: "September 27, 2018"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/born-on-inauguration-day"
 spotifyUrl: "https://open.spotify.com/track/1KS1yi8eV24ttpysZ4CAQM"
 appleMusicUrl: "https://music.apple.com/us/album/born-on-inauguration-day/1437209555?i=1437209556&uo=4"
+featuredLyrics: "That's why I do not want to die before my life begins"
 ---
 
 Born On Inauguration Day

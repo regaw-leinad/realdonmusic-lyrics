@@ -7,6 +7,7 @@ releaseDate: "August 3, 2017"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/givenchy-jones"
 spotifyUrl: "https://open.spotify.com/track/42Cgosifp7HnQYhwqVJLh8"
 appleMusicUrl: "https://music.apple.com/us/album/givenchy-jones/988043456?i=988043559&uo=4"
+featuredLyrics: "Set fire to the face of dead presidents"
 ---
 
 The final factor in a sudden change of opinion

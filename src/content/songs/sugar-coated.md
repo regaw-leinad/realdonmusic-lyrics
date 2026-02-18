@@ -7,6 +7,7 @@ releaseDate: "August 4, 2017"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/sugar-coated"
 spotifyUrl: "https://open.spotify.com/track/393LEeGw0OfZY0wzmM5jot"
 appleMusicUrl: "https://music.apple.com/us/album/sugar-coated/1232071400?i=1232071415&uo=4"
+featuredLyrics: "We're like a snake's tail in its own mouth but it still loves the taste"
 ---
 
 Are you taking toll of the toll that’s being taken

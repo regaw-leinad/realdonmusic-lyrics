@@ -5,6 +5,7 @@ releaseDate: "February 26, 2019"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/for-real"
 spotifyUrl: "https://open.spotify.com/track/0YR4gQzjwj7vEErPKYHj2Z"
 appleMusicUrl: "https://music.apple.com/us/album/for-real/1455135672?i=1455135674&uo=4"
+featuredLyrics: "I am yearning to be owned while owning nothing of my own"
 ---
 
 I've found a new demagogue in demography

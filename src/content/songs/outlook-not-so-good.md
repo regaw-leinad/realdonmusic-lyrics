@@ -7,6 +7,7 @@ releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/outlook-not-so-good"
 spotifyUrl: "https://open.spotify.com/track/668RxGQLYRDrJFur1j6JlJ"
 appleMusicUrl: "https://music.apple.com/us/album/outlook-not-so-good/1860061342?i=1860061355&uo=4"
+featuredLyrics: "Like waterboarding when you're thirsty\nYou've got to get your hands dirty"
 ---
 
 “Outlook Not So Good”

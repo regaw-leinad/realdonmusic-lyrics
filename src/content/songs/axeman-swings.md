@@ -7,6 +7,7 @@ releaseDate: "August 3, 2017"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/axeman-swings"
 spotifyUrl: "https://open.spotify.com/track/2mFea1esCID0xutUq6doTs"
 appleMusicUrl: "https://music.apple.com/us/album/axeman-swings/988043456?i=988043560&uo=4"
+featuredLyrics: "I'm drowning out these demons with that jazz"
 ---
 
 On a corner in the French Quarter

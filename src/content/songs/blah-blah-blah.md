@@ -7,6 +7,7 @@ releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/blah-blah-blah"
 spotifyUrl: "https://open.spotify.com/track/0u0Tg4MNHr9IbDbTnAa13R"
 appleMusicUrl: "https://music.apple.com/us/album/blah-blah-blah/1860061342?i=1860061767&uo=4"
+featuredLyrics: "I need something to believe in\nSomething to soften the blow"
 ---
 
 For everything I haven’t done
