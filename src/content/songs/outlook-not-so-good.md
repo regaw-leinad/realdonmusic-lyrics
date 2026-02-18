@@ -3,7 +3,7 @@ title: "Outlook Not So Good"
 coverArt: "/images/covers/pet-care-or-the-righteous-one-takes-care-of-their-animal.jpg"
 album: "Pet Care: or The Righteous One Takes Care of Their Animal"
 track: 3
-releaseDate: "September 9, 2024"
+releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/outlook-not-so-good"
 spotifyUrl: "https://open.spotify.com/track/668RxGQLYRDrJFur1j6JlJ"
 appleMusicUrl: "https://music.apple.com/us/album/outlook-not-so-good/1860061342?i=1860061355&uo=4"

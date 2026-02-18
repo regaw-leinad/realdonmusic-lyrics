@@ -3,7 +3,7 @@ title: "Free Dogs Leave Marks"
 coverArt: "/images/covers/pet-care-or-the-righteous-one-takes-care-of-their-animal.jpg"
 album: "Pet Care: or The Righteous One Takes Care of Their Animal"
 track: 6
-releaseDate: "April 1, 2025"
+releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/free-dogs-leave-marks"
 spotifyUrl: "https://open.spotify.com/track/6mlnx95n8fYuWb9TxXHVU6"
 appleMusicUrl: "https://music.apple.com/us/album/free-dogs-leave-marks/1860061342?i=1860061454&uo=4"

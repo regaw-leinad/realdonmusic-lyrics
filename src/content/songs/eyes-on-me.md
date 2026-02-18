@@ -3,7 +3,7 @@ title: "Eyes On Me"
 coverArt: "/images/covers/pet-care-or-the-righteous-one-takes-care-of-their-animal.jpg"
 album: "Pet Care: or The Righteous One Takes Care of Their Animal"
 track: 1
-releaseDate: "April 29, 2024"
+releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/eyes-on-me"
 spotifyUrl: "https://open.spotify.com/track/4TJ3j3xKskWSesFRAkbnrB"
 appleMusicUrl: "https://music.apple.com/us/album/eyes-on-me/1860061342?i=1860061345&uo=4"

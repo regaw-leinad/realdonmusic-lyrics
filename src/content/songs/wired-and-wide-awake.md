@@ -3,7 +3,7 @@ title: "Wired And Wide Awake"
 coverArt: "/images/covers/pet-care-or-the-righteous-one-takes-care-of-their-animal.jpg"
 album: "Pet Care: or The Righteous One Takes Care of Their Animal"
 track: 2
-releaseDate: "November 29, 2024"
+releaseDate: "December 7, 2025"
 bandcampUrl: "https://realdonmusic.bandcamp.com/track/wired-and-wide-awake"
 spotifyUrl: "https://open.spotify.com/track/0Q013tOWRQxbmCOdOEjWRL"
 appleMusicUrl: "https://music.apple.com/us/album/wired-and-wide-awake/1782263276?i=1782263290&uo=4"
