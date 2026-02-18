@@ -61,22 +61,13 @@ if (singles.length > 0) {
 const filterLabels = albumGroups.map((g) => g.name);
 ---
 
-<BaseLayout title="Lyrics" description="Every word, every story. Read the lyrics for every Real Don Music song.">
-  <div class="mx-auto max-w-[960px] px-6 pb-20 pt-16 text-center">
-    <h1
-      class="mb-3 font-['Cormorant_Garamond',Georgia,serif] text-[48px] font-semibold leading-none text-text-primary sm:text-[52px]"
-    >
-      Lyrics
-    </h1>
-    <p class="mx-auto max-w-[440px] text-base text-text-muted">
-      Every word, every story. Read the lyrics, learn what inspired them.
-    </p>
-  </div>
-
+<BaseLayout title="Lyrics" description="Every word, every story. Read the lyrics for every Real Don Music song." ogImage="/images/covers/pet-care-or-the-righteous-one-takes-care-of-their-animal.jpg">
   <!-- Album filter -->
-  <div class="mx-auto flex max-w-[960px] flex-wrap gap-2 px-6 pb-10" id="filters">
+  <div class="mx-auto max-w-[960px] px-6 pt-12 pb-10" id="filters">
+    <div class="mb-4 text-[13px] font-medium text-text-muted">Browse lyrics</div>
+    <div class="-mx-6 flex gap-2 overflow-x-auto px-6 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
     <button
-      class="filter-btn rounded-full border border-gold/40 bg-gold-dim px-4 py-2 text-[13px] font-medium text-gold transition-all"
+      class="filter-btn shrink-0 rounded-full border border-gold/40 bg-gold-dim px-4 py-2 text-[13px] font-medium text-gold transition-all"
       data-album="all"
     >
       All
@@ -84,13 +75,14 @@ const filterLabels = albumGroups.map((g) => g.name);
     {
       filterLabels.map((label) => (
         <button
-          class="filter-btn rounded-full border border-border bg-transparent px-4 py-2 text-[13px] font-medium text-text-muted transition-all hover:border-gold/30 hover:text-text-secondary"
+          class="filter-btn shrink-0 rounded-full border border-border bg-transparent px-4 py-2 text-[13px] font-medium text-text-muted transition-all hover:border-gold/30 hover:text-text-secondary"
           data-album={label}
         >
           {label}
         </button>
       ))
     }
+    </div>
   </div>
 
   <!-- Album sections -->
@@ -98,14 +90,14 @@ const filterLabels = albumGroups.map((g) => g.name);
     {
       albumGroups.map((group) => (
         <section class="album-section mb-14" data-album={group.name}>
-          <h2 class="mb-6 font-['Cormorant_Garamond',Georgia,serif] text-[28px] font-semibold text-text-primary sm:text-[32px]">
+          <h2 class="mb-6 text-[24px] font-semibold tracking-tight text-text-primary sm:text-[28px]">
             {group.name}
           </h2>
           <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {group.songs.map((song) => (
               <SongCard
                 title={song.data.title}
-                album={group.name === "Singles" ? undefined : song.data.album}
+                album={undefined}
                 slug={song.id}
                 coverArt={song.data.coverArt}
               />
@@ -126,11 +118,11 @@ const filterLabels = albumGroups.map((g) => g.name);
       // Reset all buttons
       buttons.forEach((b) => {
         b.className =
-          "filter-btn rounded-full border border-border bg-transparent px-4 py-2 text-[13px] font-medium text-text-muted transition-all hover:border-gold/30 hover:text-text-secondary";
+          "filter-btn shrink-0 rounded-full border border-border bg-transparent px-4 py-2 text-[13px] font-medium text-text-muted transition-all hover:border-gold/30 hover:text-text-secondary";
       });
       // Activate clicked button
       btn.className =
-        "filter-btn rounded-full border border-gold/40 bg-gold-dim px-4 py-2 text-[13px] font-medium text-gold transition-all";
+        "filter-btn shrink-0 rounded-full border border-gold/40 bg-gold-dim px-4 py-2 text-[13px] font-medium text-gold transition-all";
 
       const album = btn.getAttribute("data-album");
       sections.forEach((section) => {

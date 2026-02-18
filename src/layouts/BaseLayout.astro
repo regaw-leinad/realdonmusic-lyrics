@@ -18,7 +18,7 @@ const {
 const pageTitle = `${title} | Real Don Music`;
 const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
 const canonical = canonicalUrl ?? Astro.url.href;
-const og = ogImage ?? `${siteUrl}/images/og-default.png`;
+const og = ogImage ? (ogImage.startsWith("http") ? ogImage : `${siteUrl}${ogImage}`) : `${siteUrl}/images/og-default.png`;
 ---
 
 <!doctype html>
@@ -54,7 +54,7 @@ const og = ogImage ?? `${siteUrl}/images/og-default.png`;
       class="sticky top-0 z-50 border-b border-border bg-bg-primary/85 backdrop-blur-lg"
     >
       <div
-        class="mx-auto flex max-w-[720px] items-center justify-between px-6 py-4"
+        class="mx-auto flex max-w-[960px] items-center justify-between px-6 py-4"
       >
         <a
           href="/"
@@ -62,22 +62,14 @@ const og = ogImage ?? `${siteUrl}/images/og-default.png`;
         >
           Real Don Music
         </a>
-        <div class="flex gap-6">
+        {Astro.url.pathname !== "/" && (
           <a
             href="/"
             class="text-sm font-medium text-text-muted no-underline transition-colors hover:text-text-primary"
           >
             All Songs
           </a>
-          <a
-            href="https://realdonmusic.bandcamp.com"
-            target="_blank"
-            rel="noopener"
-            class="text-sm font-medium text-text-muted no-underline transition-colors hover:text-text-primary"
-          >
-            Bandcamp
-          </a>
-        </div>
+        )}
       </div>
     </nav>
 
@@ -85,12 +77,12 @@ const og = ogImage ?? `${siteUrl}/images/og-default.png`;
 
     <footer class="border-t border-border px-6 py-8">
       <div
-        class="mx-auto flex max-w-[720px] flex-col items-center justify-between gap-4 sm:flex-row"
+        class="mx-auto flex max-w-[960px] flex-col items-center justify-between gap-4 sm:flex-row"
       >
         <div class="text-[13px] font-semibold uppercase tracking-wider text-gold">
           Real Don Music
         </div>
-        <div class="flex gap-5">
+        <div class="flex flex-wrap justify-center gap-5">
           <a
             href="https://realdonmusic.bandcamp.com"
             target="_blank"
@@ -114,6 +106,22 @@ const og = ogImage ?? `${siteUrl}/images/og-default.png`;
             class="text-[13px] text-text-muted no-underline transition-colors hover:text-text-primary"
           >
             Spotify
+          </a>
+          <a
+            href="https://discord.gg/F9ZxZjxMZs"
+            target="_blank"
+            rel="noopener"
+            class="text-[13px] text-text-muted no-underline transition-colors hover:text-text-primary"
+          >
+            Discord
+          </a>
+          <a
+            href="https://linktr.ee/realdonmusic"
+            target="_blank"
+            rel="noopener"
+            class="text-[13px] text-text-muted no-underline transition-colors hover:text-text-primary"
+          >
+            Linktree
           </a>
         </div>
       </div>
