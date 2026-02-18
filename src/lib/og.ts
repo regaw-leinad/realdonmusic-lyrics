@@ -8,10 +8,10 @@ let boldFont: ArrayBuffer | null = null;
 
 function loadFonts(): { regular: ArrayBuffer; bold: ArrayBuffer } {
   if (!regularFont) {
-    regularFont = fs.readFileSync(path.resolve("src/fonts/Inter-Regular.ttf")).buffer as ArrayBuffer;
+    regularFont = fs.readFileSync(path.resolve("public/fonts/Inter-Regular.ttf")).buffer as ArrayBuffer;
   }
   if (!boldFont) {
-    boldFont = fs.readFileSync(path.resolve("src/fonts/Inter-Bold.ttf")).buffer as ArrayBuffer;
+    boldFont = fs.readFileSync(path.resolve("public/fonts/Inter-Bold.ttf")).buffer as ArrayBuffer;
   }
   return { regular: regularFont, bold: boldFont };
 }
